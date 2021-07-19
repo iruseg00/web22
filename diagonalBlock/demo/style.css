@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.diagonal-box {
+  position: relative;
+  top: 100px;
+  background-image: linear-gradient(45deg, #6303b1, #ff0099);
+  transform: skewY(-9deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  border: dashed 1px gray;
+  max-width: 900px;
+  height: fit-content;
+  font-size: 30px;
+}
+
+.diagonal-box-2 {
+  top: 300px;
+  transform: skewY(9deg);
+}
+
+.diagonal-box-3 {
+  top: 500px;
+  transform: skewY(-9deg);
+  height: 400px;
+}
+
+.content-3 {
+  transform: skewY(9deg);
+}

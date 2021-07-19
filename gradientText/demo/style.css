@@ -1,0 +1,18 @@
+.my-gradient-txt {
+  font-size: 48px;
+  font-weight: 900;
+  background: linear-gradient(to right, #ad1457, #4a148c);
+  /* 
+    background-clip определяет как цвет фона или 
+    фоновое изображение будут выводиться под границами блока!
+    Значения: 
+    border-box - Фон до внешнего края границы (но под границей в z-порядке).
+    padding-box - Фон до внешнего края отступа. Под границей фон не рисуется.
+    content-box - Фон закрашивается внутри (обрезается) поля содержимого.
+    text - Фон закрашивается внутри (обрезается) текста переднего плана. 
+  */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
